@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Outfit&display=swap');
+
+*{
+    margin:0 auto;
+    text-align: center;
+    font-family: 'Outfit'
+    
+
+}
+
+body{
+    background-color:hsl(212, 45%, 89%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.card{
+    padding:10px;
+    background-color:white;
+    width:250px;
+    height:40%;
+    border-radius:10px;
+}
+
+.card img{
+    margin-top:5px;
+    border-radius:10px;
+    width:250px;
+    height:100%;
+}
+.card #info1{
+    margin-top:5px;
+    margin-bottom:10px;
+    font-weight: 700
+}
+
+.card .info{
+    text-align: center;
+    padding:20px;
+    padding-bottom:10px;
+}
+
+.card #scinfo{
+    font-weight:400px;
+    font-size:13px;
+    margin-bottom:10px;
+    color:rgb(85, 84, 84);
+}
